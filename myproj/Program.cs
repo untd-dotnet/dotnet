@@ -10,6 +10,7 @@ namespace myproj
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hI");
         }
     }
 }
