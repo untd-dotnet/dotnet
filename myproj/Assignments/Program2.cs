@@ -8,7 +8,7 @@ namespace dummy
 {
     class Program2
     {
-        static void Main(string[] args)
+        static void main(string[] args)
         {
 
             /* String string1 = "Learning C# is a great fun";

@@ -60,7 +60,7 @@ namespace Practiseproj
          }
     }
     class Poly{
-        static void Main()
+        static void main()
         {
             Student s1 = new Student();
             Student s2= new Topper();
