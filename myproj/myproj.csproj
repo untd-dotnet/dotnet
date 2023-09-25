@@ -45,7 +45,12 @@
   <ItemGroup>
     <Compile Include="Assignments\Program1.cs" />
     <Compile Include="Assignments\Program2.cs" />
+    <Compile Include="Practise\Genericsprac.cs" />
+    <Compile Include="Practise\Inheritance.cs" />
+    <Compile Include="Practise\Poly.cs" />
+    <Compile Include="Practise\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Practise\stringinbuiltfns.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
