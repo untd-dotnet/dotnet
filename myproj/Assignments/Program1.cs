@@ -10,7 +10,7 @@ namespace dummy
     {
         static void main()
         {
-            Console.WriteLine("Enter string");
+            Console.WriteLine("Enter string : ");
             String string1 = Console.ReadLine().ToLower().Trim();
             Dictionary<Char, int> letter_count_dict = new Dictionary<Char, int>();
             int max_freq = 0;
