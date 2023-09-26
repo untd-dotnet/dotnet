@@ -24,7 +24,7 @@ namespace myproj.Practise
             return 82;
         }
 
-        static void Main()
+        static void main()
         {
             Console.WriteLine("Testing delegate");
             /*Sampledelegate del1,del2,del3,del4;
