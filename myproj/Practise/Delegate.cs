@@ -24,7 +24,7 @@ namespace myproj.Practise
 
     class Anony_Delegate
     {
-        static void Main()
+        static void main()
         {
             Console.WriteLine("Testing delegate");
             Sample_delegate del = delegate (int marks)
