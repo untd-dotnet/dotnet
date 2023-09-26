@@ -27,7 +27,7 @@ namespace myproj.Practise {
             return storegrade(s);
         }
         
-        public static void Main()
+        public static void main()
         {
             Student2 s1 = new Student2(1, "vani", 98.7);
             Student2 s2 = new Student2(2, "ram", 94.7);
