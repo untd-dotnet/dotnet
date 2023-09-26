@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Assignments\Program1.cs" />
     <Compile Include="Assignments\Program2.cs" />
+    <Compile Include="Practise\MultiCastdelegates.cs" />
     <Compile Include="Practise\ExecpnHand.cs" />
     <Compile Include="Practise\Use_delegate.cs" />
     <Compile Include="Practise\Delegate.cs" />

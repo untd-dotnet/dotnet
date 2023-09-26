@@ -9,7 +9,7 @@ namespace myproj.Practise
 {
     class ExecpnHand
     {
-        static void Main() {
+        static void main() {
             StreamReader streamReader = null;
             try
             {
