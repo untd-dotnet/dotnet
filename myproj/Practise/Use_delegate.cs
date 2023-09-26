@@ -80,7 +80,7 @@ namespace myproj.Practise
         }
 
 
-        public static void Main()
+        public static void main()
         {
             Student s1 = new Student(1, "vani", 98.7);
             Student s2 = new Student(2, "ram", 94.7);
