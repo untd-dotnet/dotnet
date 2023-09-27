@@ -8,7 +8,7 @@ namespace myproj.Practise
 {
     class LINQ
     {
-        static void Main() {
+        static void main() {
             String[] names = { "SreeVani", "Vani Sagari", "Sailesh", "John Smith" };
             var nameswithspaces = from name in names where name.Contains(" ") select name;
             foreach (var name in nameswithspaces) {

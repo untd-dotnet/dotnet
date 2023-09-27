@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +47,13 @@
   <ItemGroup>
     <Compile Include="Assignments\Program1.cs" />
     <Compile Include="Assignments\Program2.cs" />
+    <Compile Include="Practise\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practise\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practise\Threading.cs" />
     <Compile Include="Practise\LINQ.cs" />
     <Compile Include="Practise\lamda.cs" />
     <Compile Include="Practise\MultiCastdelegates.cs" />
@@ -60,6 +69,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Practise\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
